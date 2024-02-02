@@ -1,0 +1,65 @@
+/* Custom styles go here */
+
+body {
+    padding-top: 56px; /* Adjust based on your navbar height */
+    font-family: 'Montserrat', sans-serif;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Additional styles for a more professional look */
+h2 {
+    color: #333;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.container {
+    max-width: 800px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skill {
+    margin-bottom: 10px;
+  }
+
+  .skill-bar {
+    display: flex;
+    align-items: center;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #e0e0e0;
+  }
+
+  .skill-progress {
+    height: 100%;
+    background-color: #4caf50;
+  }
+
+  .skill-label {
+    margin-left: 10px;
+    color: #333;
+  }
+/* Add more styling as needed */
